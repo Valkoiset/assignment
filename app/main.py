@@ -11,7 +11,7 @@ def main(dataset_one_path: str, dataset_two_path, countries):
     processed_df = process_data(dataset_one, dataset_two, countries)
     processed_df.show()
 
-    # processed_df.write.csv('client_data/result.csv', header=True)
+    # processed_df.coalesce(1).write.csv('../client_data/result', header=True)
 
 
 if __name__ == '__main__':
