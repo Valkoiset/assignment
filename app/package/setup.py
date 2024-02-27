@@ -1,9 +1,9 @@
 from setuptools import setup
 
-# create a wheel package
+# Create a wheel package
 # python setup.py && rm -vrf *.egg-info ./lib *.win-amd64
 
-# install a wheel package
+# Install a wheel package
 # pip install kommati_para-0.0.1-py3-none-any.whl --force-reinstall
 
 setup(
@@ -18,7 +18,7 @@ setup(
     ],
     options={'build': {'build_base': '.'}},
     install_requires=[
-        'pydantic'
+        'pyspark>=3.5.1'
     ],
     python_requires='>=3.10',
 )

@@ -9,3 +9,4 @@ notes.txt
 docker-compose.yml
 
 venv/
+wheels/

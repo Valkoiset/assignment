@@ -1,4 +1,4 @@
-from package.logging import setup_logging
+from package.logging_module import setup_logging
 from package.cleaning import process_data
 from pyspark.sql import SparkSession
 
