@@ -1,6 +1,7 @@
 __pycache__
 .idea
 .ipynb_checkpoints
+.pytest_cache
 *.crc
 
 main.ipynb
