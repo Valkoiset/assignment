@@ -8,8 +8,8 @@ def main(dataset_one_path: str, dataset_two_path, countries):
     dataset_one = spark.read.csv(dataset_one_path, header=True)
     dataset_two = spark.read.csv(dataset_two_path, header=True)
 
-    processed_df = process_data(dataset_one, dataset_two, countries)
-    processed_df.show()
+    df_merged = process_data(dataset_one, dataset_two, countries)
+    df_merged.show()
 
     # processed_df.coalesce(1).write.csv('../client_data/result', header=True)
 
