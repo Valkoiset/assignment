@@ -14,7 +14,10 @@ def main(dataset_one_path: str, dataset_two_path: str, countries: list) -> None:
     dataset_two = spark.read.csv(dataset_two_path, header=True)
 
     df_merged = process_data(dataset_one, dataset_two, countries)
-    df_merged.coalesce(1).write.mode('overwrite').csv('../client_data', header=True)
+
+    # Not mentioned in exercise description whether it needs to be 'append' or 'overwrite'
+    # So I assume the app should be running regularly and append new files instead of overwriting everything
+    df_merged.coalesce(1).write.mode('append').csv('../client_data/', header=True)
 
 
 if __name__ == '__main__':

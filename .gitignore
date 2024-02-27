@@ -2,6 +2,8 @@ __pycache__
 .git
 .idea
 .ipynb_checkpoints
+*.crc
+
 main.ipynb
 notes.txt
 docker-compose.yml
