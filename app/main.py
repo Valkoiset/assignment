@@ -2,7 +2,7 @@ from package.functions import process_data
 from pyspark.sql import SparkSession
 
 
-def main(dataset_one_path: str, dataset_two_path, countries):
+def main(dataset_one_path: str, dataset_two_path: str, countries: list) -> None:
     spark = SparkSession.builder.appName('KommatiPara').getOrCreate()
 
     dataset_one = spark.read.csv(dataset_one_path, header=True)
@@ -17,6 +17,6 @@ def main(dataset_one_path: str, dataset_two_path, countries):
 if __name__ == '__main__':
     main(
         dataset_one_path='../input_data/dataset_one.csv',
-        dataset_two_path='../input_data/dataset_one.csv',
+        dataset_two_path='../input_data/dataset_two.csv',
         countries=['United Kingdom', 'Netherlands']
     )
