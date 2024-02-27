@@ -1,5 +1,9 @@
+__pycache__
+.git
 .idea
+.ipynb_checkpoints
 notes.txt
+docker-compose.yml
+
 venv/
 notebooks/
-__pycache__
