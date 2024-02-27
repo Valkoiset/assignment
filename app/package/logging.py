@@ -8,7 +8,7 @@ def setup_logging():
 
     # Define a rotating file handler
     handler = RotatingFileHandler(
-        './logs/my_app.log',
+        'logs/my_app.log',
         maxBytes=10 * 1024 * 1024,  # Log file size limit (10 MB)
         backupCount=10,  # Number of backup files to keep
     )
