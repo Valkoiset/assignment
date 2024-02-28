@@ -26,4 +26,5 @@ jobs:
       #          pip install wheels/kommati_para-0.0.1-py3-none-any.whl --force-reinstall
 
       - name: Run Tests
-        run: python -m pytest app/tests/
+        run: pytest
+#        run: python -m pytest app/tests/
