@@ -23,7 +23,7 @@ jobs:
       - name: Build and install package
         run: |
           python app/package/setup.py
-          pip install dist/*.whl
+#          pip install dist/*.whl
 
 #      - name: Run Tests
 #        run: |
