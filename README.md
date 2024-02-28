@@ -15,3 +15,12 @@ The PySpark Data Processing Application is a Python-based tool designed for the 
 ## Usage
 
 Execute the application by running the `main.py` script with the appropriate datasets and parameters. It's designed to be flexible, allowing for customization based on specific data processing needs.
+
+Example of running from the root directory:
+
+```bash
+!spark-submit app/main.py \
+    --dataset_one_path "input_data/dataset_one.csv" \
+    --dataset_two_path "input_data/dataset_two.csv" \
+    --countries ['United Kingdom', 'Netherlands']
+```
