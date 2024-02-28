@@ -37,8 +37,12 @@ def drop_columns(df: DataFrame, columns_to_remove: list) -> DataFrame:
     :param columns_to_remove: A list of columns to drop from the DataFrame.
     :return: DataFrame with personal information columns removed.
     """
-    df_cleaned = df.drop(*columns_to_remove)
-    return df_cleaned
+    try:
+        df = df.drop(*columns_to_remove)
+        logger.info(f'Dropped columns [{columns_to_remove}]')
+        return df
+    except Exception as error:
+        logger.error(f'Error when dropping columns: {str(error)}')
 
 
 def filter_by_country(df: DataFrame, countries: list) -> DataFrame:
@@ -49,7 +53,12 @@ def filter_by_country(df: DataFrame, countries: list) -> DataFrame:
     :param countries: A list of country names (strings) to include in the filtered DataFrame.
     :return: DataFrame containing only the rows where the 'country' value is in the provided list.
     """
-    return df.filter(df.country.isin(countries))
+    try:
+        df = df.filter(df.country.isin(countries))
+        logger.info(f'Filtered dataframe by countries: [{countries}]')
+        return df
+    except Exception as error:
+        logger.error(f'Error when filtering dataframe by countries: {str(error)}')
 
 
 def rename_columns(df: DataFrame, columns_map: dict) -> DataFrame:

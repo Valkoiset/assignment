@@ -12,3 +12,28 @@
 2024-02-28 17:11:36,366 - KommatiPara - INFO - Column id has been renamed to client_identifier
 2024-02-28 17:11:36,372 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
 2024-02-28 17:11:36,378 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 17:19:29,950 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
+2024-02-28 17:19:29,979 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 17:19:29,986 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 17:19:29,993 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 17:27:25,004 - KommatiPara - INFO - Dropped columns [['first_name', 'last_name']]
+2024-02-28 17:27:25,028 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
+2024-02-28 17:27:25,032 - KommatiPara - INFO - Dropped columns [['cc_n']]
+2024-02-28 17:27:25,054 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 17:27:25,060 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 17:27:25,066 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 17:31:00,291 - KommatiPara - INFO - Dropped columns [['first_name', 'last_name']]
+2024-02-28 17:31:00,303 - KommatiPara - ERROR - Error when filtering dataframe by countries: name 'ajsghdasjd' is not defined
+2024-02-28 17:31:00,308 - KommatiPara - INFO - Dropped columns [['cc_n']]
+2024-02-28 17:32:02,701 - KommatiPara - INFO - Dropped columns [['first_name', 'last_name']]
+2024-02-28 17:32:02,725 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
+2024-02-28 17:32:02,730 - KommatiPara - INFO - Dropped columns [['cc_n']]
+2024-02-28 17:32:02,754 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 17:32:02,759 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 17:32:02,767 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 17:33:27,321 - KommatiPara - INFO - Dropped columns [['first_name', 'last_name']]
+2024-02-28 17:33:27,357 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
+2024-02-28 17:33:27,363 - KommatiPara - INFO - Dropped columns [['cc_n']]
+2024-02-28 17:33:27,391 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 17:33:27,399 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 17:33:27,406 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
