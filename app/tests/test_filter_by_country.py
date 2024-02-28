@@ -1,8 +1,7 @@
 from chispa.dataframe_comparer import assert_df_equality
-# from kommati_para.cleaning import filter_by_country
+from kommati_para.cleaning import filter_by_country
 from pyspark.sql import SparkSession
 import pytest
-from ..package.cleaning import filter_by_country
 
 
 @pytest.fixture(scope='session')
