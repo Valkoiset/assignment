@@ -1,4 +1,4 @@
-from package.logging_module import setup_logging
+from kommati_para.logging_module import setup_logging
 from pyspark.sql import DataFrame
 
 logger = setup_logging()

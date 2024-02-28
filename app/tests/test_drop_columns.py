@@ -1,6 +1,5 @@
 from chispa.dataframe_comparer import assert_df_equality
-# from kommati_para.cleaning import drop_columns
-from package.cleaning import drop_columns
+from kommati_para.cleaning import drop_columns
 from pyspark.sql import SparkSession
 import pytest
 
