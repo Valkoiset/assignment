@@ -1,3 +1,14 @@
 2024-02-28 00:07:29,718 - KommatiPara - INFO - Column id has been renamed to client_identifier
 2024-02-28 00:07:29,725 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
 2024-02-28 00:07:29,732 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 16:25:40,712 - KommatiPara - INFO - Column name has been renamed to full_name
+2024-02-28 16:25:40,721 - KommatiPara - INFO - Column age has been renamed to years
+2024-02-28 16:34:48,972 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 16:34:48,978 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 16:34:48,986 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 16:42:24,375 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 16:42:24,381 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 16:42:24,387 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 17:11:36,366 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 17:11:36,372 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 17:11:36,378 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
