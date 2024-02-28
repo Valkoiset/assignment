@@ -19,7 +19,7 @@ Execute the application by running the `main.py` script with the appropriate dat
 Example of running from the root directory:
 
 ```bash
-!spark-submit app/main.py \
+spark-submit app/main.py \
     --dataset_one_path "input_data/dataset_one.csv" \
     --dataset_two_path "input_data/dataset_two.csv" \
     --countries "United Kingdom" "Netherlands"
