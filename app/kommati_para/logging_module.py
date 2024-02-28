@@ -9,7 +9,8 @@ def setup_logging():
 
     # Define a rotating file handler
     handler = RotatingFileHandler(
-        f'{os.getcwd()}/app/logs/app.log',
+        f'{os.getcwd()}/logs/app.log',
+        # f'{os.getcwd()}/app/logs/app.log',
         maxBytes=10 * 1024 * 1024,  # Log file size limit (10 MB)
         backupCount=10,  # Number of backup files to keep
     )
