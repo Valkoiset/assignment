@@ -1,4 +1,7 @@
+from package.logging_module import setup_logging
 from pyspark.sql import DataFrame
+
+logger = setup_logging()
 
 
 def process_data(dataset_one: DataFrame, dataset_two: DataFrame, countries: list) -> DataFrame:
@@ -57,6 +60,10 @@ def rename_columns(df: DataFrame, columns_map: dict) -> DataFrame:
     :param columns_map: A dictionary with keys as current column names and values as new column names.
     :return: DataFrame with renamed columns.
     """
-    for old_name, new_name in columns_map.items():
-        df = df.withColumnRenamed(old_name, new_name)
-    return df
+    try:
+        for old_name, new_name in columns_map.items():
+            df = df.withColumnRenamed(old_name, new_name)
+            logger.info(f'Column {old_name} has been renamed to {new_name}')
+        return df
+    except Exception as error:
+        logger.error(f'Error in renaming columns: {str(error)}')

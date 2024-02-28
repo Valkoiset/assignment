@@ -1,32 +1,3 @@
-2024-02-27 17:53:24,565 - KommatiPara - INFO - SparkSession created
-2024-02-27 17:59:48,639 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:07:58,011 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:15:38,125 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:16:25,956 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:17:21,815 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:18:09,606 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:19:42,744 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:20:21,797 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:21:08,603 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:22:46,322 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:23:30,195 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:26:47,995 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:41:31,566 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:42:55,532 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:52:55,275 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:55:22,908 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:58:44,799 - KommatiPara - INFO - SparkSession created
-2024-02-27 18:59:27,735 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:01:44,320 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:02:47,224 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:03:27,191 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:04:50,816 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:05:26,729 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:07:21,276 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:09:03,648 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:12:57,330 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:15:18,068 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:17:23,199 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:38:18,606 - KommatiPara - INFO - SparkSession created
-2024-02-27 19:54:34,097 - KommatiPara - INFO - SparkSession created
-2024-02-27 23:15:06,502 - KommatiPara - INFO - SparkSession created
+2024-02-28 00:03:20,287 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 00:03:20,293 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 00:03:20,298 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
