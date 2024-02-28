@@ -22,7 +22,7 @@ jobs:
 
       - name: Build and install package
         run: |
-          python app/package/setup.py
+          python setup.py && rm -vrf *.egg-info ./lib *.win-amd64
 #          pip install dist/*.whl
 
 #      - name: Run Tests
