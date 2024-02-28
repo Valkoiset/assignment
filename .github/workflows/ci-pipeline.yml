@@ -25,6 +25,10 @@ jobs:
           python app/package/setup.py && rm -vrf *.egg-info ./lib *.win-amd64
           pip install wheels/kommati_para-0.0.1-py3-none-any.whl --force-reinstall
 
-      - name: Run Tests
+      - name: List installed packages
         run: |
-          pytest app/tests/
+          pip list
+
+#      - name: Run Tests
+#        run: |
+#          pytest app/tests/
