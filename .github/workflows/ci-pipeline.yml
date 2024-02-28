@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout
 
       - name: Set up Python 3.10.9
-        uses: actions/setup-python@v2
+        uses: actions/setup-python
         with:
           python-version: 3.10.9
 
@@ -24,18 +24,6 @@ jobs:
         run: |
           python app/package/setup.py && rm -vrf *.egg-info ./lib *.win-amd64
           pip install wheels/kommati_para-0.0.1-py3-none-any.whl --force-reinstall
-
-      - name: Print Python Paths
-        run: |
-          python -c "import sys; print(sys.path)"
-
-      - name: Show Package Info
-        run: |
-          pip show kommati-para
-
-      - name: Diagnostic Import Test
-        run: |
-          python -c "import sys; print(sys.path); import kommati_para; print('Import successful')"
 
 #      - name: Run Tests
 #        run: python -m pytest app/tests/
