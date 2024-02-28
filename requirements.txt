@@ -4,3 +4,4 @@ py4j~=0.10.9.7
 setuptools~=41.2.0
 pytest~=7.1.2
 chispa~=0.10.0
+wheel~=0.38.0
