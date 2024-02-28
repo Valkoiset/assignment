@@ -32,4 +32,4 @@ jobs:
       - name: Run Tests
         run: |
           export PYTHONPATH=$(python -m site --user-site):$PYTHONPATH
-          pytest tests/
+          pytest app/tests/
