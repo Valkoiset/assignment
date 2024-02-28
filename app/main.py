@@ -1,4 +1,4 @@
-from package.cleaning import process_data
+from kommati_para.cleaning import process_data
 from pyspark.sql import SparkSession
 
 

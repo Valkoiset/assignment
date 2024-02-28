@@ -41,3 +41,7 @@
 2024-02-28 19:41:05,924 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
 2024-02-28 19:41:06,445 - KommatiPara - INFO - Column name has been renamed to full_name
 2024-02-28 19:41:06,451 - KommatiPara - INFO - Column age has been renamed to years
+2024-02-28 19:50:13,489 - KommatiPara - INFO - Dropped columns [['age', 'state']]
+2024-02-28 19:50:14,996 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
+2024-02-28 19:50:15,478 - KommatiPara - INFO - Column name has been renamed to full_name
+2024-02-28 19:50:15,484 - KommatiPara - INFO - Column age has been renamed to years
