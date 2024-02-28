@@ -1,4 +1,4 @@
-name: Python application
+name: Kommati Para App
 
 on: [ push ]
 
