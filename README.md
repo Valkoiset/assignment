@@ -18,4 +18,4 @@ Execute the application by running the `main.py` script with the appropriate dat
 
 ## Contributing
 
-We welcome contributions! If you have suggestions or improvements, please feel free to fork the repository and submit a pull request!
+We welcome contributions! If you have suggestions or improvements, please feel free to fork the repository and submit a pull request! :)
