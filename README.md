@@ -29,4 +29,4 @@ Example of running from the root directory:
 
 The project also uses GitHub Actions for CI pipeline which runs tests and generates a wheel package if tests are successful.
 
-Example of such pipeline run can be found [here](https://github.com/Valkoiset/assignment/actions/runs/8086898609).
+Example of such pipeline run can be found [here](https://github.com/Valkoiset/assignment/actions/runs/8087009713).
