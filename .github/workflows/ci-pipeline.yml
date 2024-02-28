@@ -1,4 +1,4 @@
-name: Kommati Para App
+name: Kommati Para CI pipeline
 
 on: [ push ]
 
