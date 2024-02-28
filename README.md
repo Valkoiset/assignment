@@ -24,3 +24,7 @@ Example of running from the root directory:
     --dataset_two_path "input_data/dataset_two.csv" \
     --countries ['United Kingdom', 'Netherlands']
 ```
+
+## Notes
+
+The project also uses GitHub Actions for CI pipeline which runs tests and generates a wheel package if tests are successful.
