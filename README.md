@@ -22,7 +22,7 @@ Example of running from the root directory:
 !spark-submit app/main.py \
     --dataset_one_path "input_data/dataset_one.csv" \
     --dataset_two_path "input_data/dataset_two.csv" \
-    --countries ['United Kingdom', 'Netherlands']
+    --countries "United Kingdom" "Netherlands"
 ```
 
 ## Notes

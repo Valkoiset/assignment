@@ -95,3 +95,15 @@
 2024-02-28 21:04:48,285 - KommatiPara - INFO - Column id has been renamed to client_identifier
 2024-02-28 21:04:48,291 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
 2024-02-28 21:04:48,297 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 21:47:24,363 - KommatiPara - INFO - Dropped columns [['first_name', 'last_name']]
+2024-02-28 21:47:24,388 - KommatiPara - INFO - Filtered dataframe by countries: [['[United Kingdom,', 'Netherlands]']]
+2024-02-28 21:47:24,392 - KommatiPara - INFO - Dropped columns [['cc_n']]
+2024-02-28 21:47:24,414 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 21:47:24,420 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 21:47:24,426 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
+2024-02-28 21:49:30,780 - KommatiPara - INFO - Dropped columns [['first_name', 'last_name']]
+2024-02-28 21:49:30,805 - KommatiPara - INFO - Filtered dataframe by countries: [['United Kingdom', 'Netherlands']]
+2024-02-28 21:49:30,809 - KommatiPara - INFO - Dropped columns [['cc_n']]
+2024-02-28 21:49:30,831 - KommatiPara - INFO - Column id has been renamed to client_identifier
+2024-02-28 21:49:30,838 - KommatiPara - INFO - Column btc_a has been renamed to bitcoin_address
+2024-02-28 21:49:30,844 - KommatiPara - INFO - Column cc_t has been renamed to credit_card_type
