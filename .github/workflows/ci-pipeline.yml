@@ -27,3 +27,4 @@ jobs:
         run: |
           python app/kommati_para/setup.py && rm -vrf *.egg-info ./lib *.win-amd64
           pip install wheels/kommati_para-0.0.1-py3-none-any.whl --force-reinstall
+
