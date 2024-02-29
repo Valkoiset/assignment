@@ -29,4 +29,4 @@ spark-submit app/main.py \
 
 The project also uses GitHub Actions for CI pipeline which runs tests and generates a wheel package if tests are successful.
 
-Example of such pipeline run can be found [here](https://github.com/Valkoiset/assignment/actions/runs/8087009713).
+Example of such pipeline run can be found [here](https://github.com/Valkoiset/assignment/actions/runs/8089343213).
